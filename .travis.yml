@@ -7,7 +7,7 @@ addons:
   chrome: stable
 
 before_install:
-  - export CHROME_BIN=chromium-browser
+  - export CHROME_BIN=google-chrome
   - docker build -t pabloeng05/app-mirval-ngbasic  -f Dockerfile.dev .
 
 script:
