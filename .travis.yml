@@ -3,11 +3,7 @@ sudo: required
 services:
   - docker
 
-addons:
-  chrome: stable
-
 before_install:
-  - export CHROME_BIN=google-chrome
   - docker build -t pabloeng05/app-mirval-ngbasic  -f Dockerfile.dev .
 
 script:
