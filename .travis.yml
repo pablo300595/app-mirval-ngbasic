@@ -13,10 +13,10 @@ deploy:
   skip_cleanup: true 
   provider: elasticbeanstalk
   region: 'us-east-1'
-  app: 'app-mirval-basic'
-  env: 'Appmirvalbasic-env'
+  app: 'app-mirval-ngbasic'
+  env: 'Appmirvalngbasic-env'
   bucket_name: 'elasticbeanstalk-us-east-1-392868714247'
-  bucket_path: 'app-mirval-basic'
+  bucket_path: 'app-mirval-ngbasic'
   on:
     branch: main
   access_key_id: $AWS_ACCESS_KEY
