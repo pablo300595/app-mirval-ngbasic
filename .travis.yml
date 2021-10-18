@@ -4,6 +4,7 @@ services:
   - docker
 
 before_install:
+  - export CHROME_BIN=chromium-browser
   - docker build -t pabloeng05/app-mirval-ngbasic  -f Dockerfile.dev .
 
 script:
